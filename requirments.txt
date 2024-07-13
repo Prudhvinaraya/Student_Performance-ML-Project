@@ -9,3 +9,5 @@ python-dateutil
 arrow
 catboost
 xgboost
+dill
+numpy<2

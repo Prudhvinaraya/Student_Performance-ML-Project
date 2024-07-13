@@ -1,5 +1,8 @@
-import logging
+import sys
 import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import logging
+
 from datetime import datetime
 
 LOG_FILE=f"{datetime.now().strftime('%m_%d%Y_%H_%M_%S')}.log"
